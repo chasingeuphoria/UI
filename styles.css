@@ -73,7 +73,7 @@ button {
 button:hover {
   background-color: rgba(247, 245, 237, 1)
 }
-
+/* main section after nav bar */
 .intro-pic{
   height: 60rem;
 }
@@ -90,6 +90,7 @@ h1 {
   margin: 1%;
 }
 
+/* Our mission statement */
 h2 {
   font-size: 5rem;
   text-align: center;
@@ -103,9 +104,10 @@ h3 {
 
 .break {
   background-color: #F7F5ED;
-  margin: 0;
+  margin: 0 2%;
+  border-radius: 40px;
 }
-
+/* example pictures start here */
 .img-top img, .img-bottom img {
   margin: 2%;
   width: 25rem;
@@ -122,12 +124,12 @@ h3 {
   display: flex;
   justify-content: space-evenly;
 }
-
+/* bottom nav bar and links start here */
 footer{
   width: 100%;
   display: block;
   overflow: hidden;
-  padding: 70px 0;
+  padding: 20px 0;
   background-color: #FFA384;
 }
 
@@ -168,7 +170,7 @@ footer{
 
 .inner-footer .social-links li{
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 20px;
   font-size: 2rem; 
   background-color: #FFA384;
 }
@@ -176,5 +178,6 @@ footer{
 .fab {
   color: white;
   background-color: #FFA384;
+  padding-right: 20px;
 }
 
