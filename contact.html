@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style2.css">
+  <script src="app.js" defer></script>
   <title>Contact</title>
 </head>
 <body>
@@ -33,34 +34,33 @@
       <div class="top-form">
         <div class="inner-form">
           <div class="label">name</div>
-          <input type="text" placeholder="Jhon">
+          <input id="name" type="text" placeholder="Jhon">
         </div>
         <div class="inner-form">
           <div class="label">email</div>
-          <input type="text" placeholder="Example@gmail.com">
+          <input id="email" type="text" placeholder="Example@gmail.com">
         </div>
         <div class="inner-form">
           <div class="label">phone</div>
-          <input type="text" placeholder="1234567890">
+          <input id="phone" type="text" placeholder="1234567890">
         </div>
       </div>
   <!-- Subject  -->
       <div class="middle-form">
         <div class="inner-form">
           <div class="label">subject</div>
-          <input type="text" placeholder="Subject">
+          <input id="subject" type="text" placeholder="Subject">
         </div>
       </div>
   <!-- text area  -->
       <div class="bottom-form">
         <div class="inner-form">
           <div class="label">message</div>
-          <textarea placeholder="Your message"></textarea>
+          <textarea id="message" placeholder="Your message"></textarea>
         </div>
       </div>
   <!-- send button -->
-      <div class="btn">send form</div>
-  
+      <button id="submit" class="btn">send form</button>
     </div>
   </div>
   <footer>
