@@ -104,7 +104,6 @@ h3 {
 
 .break {
   background-color: #F7F5ED;
-  margin: 0 2%;
   border-radius: 40px;
 }
 /* example pictures start here */
@@ -181,3 +180,110 @@ footer{
   padding-right: 20px;
 }
 
+@media screen and (max-width: 800px){
+  .nav_links li a {
+    font-size: 2rem;
+    display: flex;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #intro {
+    width: 99%;
+  }
+
+  .intro-pic {
+    height: 40rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.break {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  border-radius: 0;
+}
+
+.break h2, h3 {
+  font-size: 2rem;
+}
+
+
+.img-top img, .img-bottom img {
+  margin: 1%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+  background-color: #FFA384;
+}
+}
+
+@media screen and (max-width: 500px) {
+header {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 100%;
+  padding: 10px 5%;
+}
+
+button {
+  font-size: 1.6rem;
+}
+
+#intro {
+  display: flex;
+  flex-flow: column;
+  width: 99%;
+}
+
+.intro-pic {
+  padding: 2%;
+  height: 30rem;
+  width: 25rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.break {
+  width: 100%;
+}
+
+.break h3 {
+  font-size: 1.6rem;
+}
+
+.img-top, .img-bottom {
+  width: 98%;
+  margin: 1%
+}
+
+.img-top img, .img-bottom img {
+  margin: 1%;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+
+.inner-footer {
+  width: 100%;
+}
+
+
+
+}
